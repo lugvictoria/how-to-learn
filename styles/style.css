@@ -14,7 +14,8 @@
 
 .logo_place_header {
   position: absolute;
-  left:64px; top:30px;
+  left:64px;
+  top:30px;
 }
 
 .header {
@@ -357,13 +358,6 @@
   flex-direction:column;
 }
 
-.footer__column_content_copyright {
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
 .footer__social-icon {
   list-style: none;
 }
-
-
