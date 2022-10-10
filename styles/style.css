@@ -236,7 +236,7 @@
   z-index: -1;
   position: relative;
  }
-.section-title__theme_dark {
+.section-title_theme_dark {
   width: 60%;
   z-index:2;
   line-height:1.15;
@@ -244,7 +244,7 @@
   font-weight:600;
   text-align: center;
 }
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   width: 60%;
   z-index:2;
   line-height:34px;
@@ -318,7 +318,7 @@
   justify-content: space-between;
 }
 .logo_place_footer {
-  background-image: url(/images/logo_place_footer.svg) alt="лого";
+  background-image: url(/images/logo_place_footer.svg);
   background-size: cover;
   width: 228px;
   height: 32px;
@@ -356,6 +356,6 @@
   height: 16px;
   margin-right: 10px;
 }
-a:last-of-type {
+.footer__column-links:last-of-type {
   margin-bottom: 16px;
 }
