@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  width: 920px;
+  flex-wrap:wrap;
+  margin:auto;
+  padding: 0;
+  column-gap: 85px;
+  position: relative;
+  justify-content: flex-start;
+  /*display: flex;
+  width: 920px;
+  align-content: space-between;
+  /*  align-content: flex-start;
+
+  margin: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  padding:0;
+  column-gap: 10px;
+  position: relative;*/
+}
