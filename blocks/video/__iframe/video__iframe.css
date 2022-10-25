@@ -1,7 +1,7 @@
 .video__iframe {
   z-index: 1;
   border:0;
-  weight: 515px;
+  width: 515px;
   height: 316px;
   gap: 20px;
   margin-bottom: -50px;
