@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/pages/index.css">
+
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -36,33 +37,33 @@
             </div>
           </div>
         </section>
-        <section class="technics" id="techniques">
+        <section class="techniques" id="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
           <div class="cards">
             <div class="cards__item">
               <img src="images/cards-attention.png" class="cards__image cards__image_attention" alt="Фотография книги">
-              <h2 class="cards__title">Два вида внимания</h2>
+              <h3 class="cards__title">Два вида внимания</h3>
               <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
             </div>
             <div class="cards__item">
               <img src="images/cards-recall.png" class="cards__image cards__image_recall" alt="Скульптура Мальчик со свирелью">
-              <h2 class="cards__title">Recall</h2>
+              <h3 class="cards__title">Recall</h3>
               <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
             </div>
             <div class="cards__item">
               <img src="images/cards-interliving.png" class="cards__image cards__image_interliving" alt="Вокзал Oculus в Нью-Йорке">
-              <h2 class="cards__title">Интерливинг</h2>
+              <h3 class="cards__title">Интерливинг</h3>
               <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
             </div>
             <div class="cards__item">
               <img src="images/cards-question.png" class="cards__image cards__image_questions" alt="Внутренний двор здания с окнами">
-              <h2 class="cards__title">Вопросы</h2>
+              <h3 class="cards__title">Вопросы</h3>
               <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
             </div>
             <div class="cards__item">
               <img src="images/cards-competence.png" class="cards__image cards__image_competence" alt="Стопка книг">
-              <h2 class="cards__title">Иллюзия компетентности</h2>
+              <h3 class="cards__title">Иллюзия компетентности</h3>
               <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
             </div>
           </div>
@@ -140,7 +141,7 @@
             <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем,
               кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
             </p>
-            <p class="khan__quote-author">Джордж Лукас</p>
+            <h3 class="khan__quote-author">Джордж Лукас</h3>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
               <img  class="khan__book-pic"    src="/images/khan-book.jpg"  alt="Изображение книги Салмана Хана 'Весь мир школа'">
@@ -198,12 +199,20 @@
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-          <div class="resources__logo-zone">
-            <img src="/images/logo/resources-arzamas.svg"  class="link resources__link" alt="Логотип Арзамас">
-            <img src="/images/logo/resources-n1.svg"  class="link resources__link" alt="Логотип Н+1">
-            <img src="/images/logo/resources-strelka.svg"  class="link resources__link" alt="Логотип Стрелка" >
-            <img src="/images/logo/resources-polka.svg"  class="link resources__link" alt="Логотип Полка">
-          </div>
+          <ul class="resources__logo-zone">
+            <li><a class="link resources__link" href="#">
+              <img class="resources__logo" src="/images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
+            </li>
+            <li><a class="link resources__link" href="#">
+              <img class="resources__logo" src="/images/logo/resources-n1.svg" alt="Логотип Н+1"></a>
+            </li>
+            <li><a class="link resources__link" href="#">
+              <img class="resources__logo" src="/images/logo/resources-strelka.svg"  alt="Логотип Стрелка"></a>
+            </li>
+            <li><a class="link resources__link" href="#">
+              <img class="resources__logo" src="/images/logo/resources-polka.svg"  alt="Логотип Полка"></a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
@@ -212,7 +221,7 @@
             <img class="logo logo_place_footer"  src="/images/logo_place_footer.svg" alt="Логотип Яндекс">
             <p class="footer__author">© 2019. Виктор Абанькин</p>
           </div>
-          <div class="footer__column  footer__column_content_info">
+          <nav class="footer__column  footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
@@ -225,8 +234,8 @@
                 <a class="link footer__column-link" href="#">Наставник</a>
               </li>
             </ul>
-          </div>
-          <div class="footer__column footer__column_content_social">
+          </nav>
+          <nav class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
@@ -245,7 +254,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </footer>
     </div>
