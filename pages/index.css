@@ -39,6 +39,7 @@
 
 @import url(./../blocks/kaufman/kaufman.css);
 @import url(./../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../../how-to-learn/blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(./../blocks/table/table.css);
 @import url(./../blocks/table/_theme/table_theme_dark.css);
@@ -73,6 +74,7 @@
 @import url(./../blocks/resources/__logo-zone/resources__logo-zone.css);
 
 @import url(./../blocks/techniques/techniques.css);
+@import url(../../how-to-learn/blocks/techniques/techniques.css);
 
 @import url(./../blocks/video/video.css);
 @import url(./../blocks/video/__iframes/video__iframes.css);
@@ -90,3 +92,4 @@
 @import url(./../blocks/footer/__column-link/footer__column-link.css);
 @import url(./../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(./../blocks/footer/__author/footer__author.css);
+
