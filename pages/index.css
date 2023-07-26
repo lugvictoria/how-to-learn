@@ -22,7 +22,6 @@
 @import url(./../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 @import url(./../blocks/digits/digits.css);
-@import url(./../blocks/table/table.css);
 @import url(./../blocks/table/__cell/table__cell.css);
 
 @import url(./../blocks/section-title/section-title.css);
@@ -77,6 +76,7 @@
 @import url(../../how-to-learn/blocks/techniques/techniques.css);
 
 @import url(./../blocks/video/video.css);
+@import url(/blocks/video/video.css);
 @import url(./../blocks/video/__iframes/video__iframes.css);
 @import url(./../blocks/video/__iframe/video__iframe.css);
 
