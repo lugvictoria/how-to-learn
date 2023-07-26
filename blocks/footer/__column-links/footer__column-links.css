@@ -3,11 +3,12 @@
   font-size: 18px;
   font-weight: normal;
   list-style: none;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   color: white;
   text-decoration: none;
 }
+
 .footer__column-links:last-of-type {
   margin-bottom: 16px;
 }

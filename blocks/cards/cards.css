@@ -1,8 +1,8 @@
 .cards {
   display: flex;
   width: 920px;
-  flex-wrap:wrap;
-  margin:auto;
+  flex-wrap: wrap;
+  margin: auto;
   padding: 0;
   column-gap: 100px;
   position: relative;
